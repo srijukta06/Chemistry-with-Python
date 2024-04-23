@@ -134,8 +134,3 @@ def calculate_molecular_mass(formula):
             # Skip over parentheses and digits
             i += 1
     return mass
-
-# Example usage:
-compound_formula = input("Enter the chemical formula of the compound: ")
-molecular_mass = calculate_molecular_mass(compound_formula)
-print("Molecular mass of", compound_formula, "is:", molecular_mass)
